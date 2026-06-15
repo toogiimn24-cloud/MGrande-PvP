@@ -221,6 +221,10 @@ local function DisableDisplayControlActions()
     DisableControlAction(0, 141, true) -- disable melee
     DisableControlAction(0, 142, true) -- disable melee
     DisableControlAction(0, 143, true) -- disable melee
+    DisableControlAction(0, 177, true) -- disable escape
+    DisableControlAction(0, 200, true) -- disable escape
+    DisableControlAction(0, 202, true) -- disable escape
+    DisableControlAction(0, 322, true) -- disable escape
     DisableControlAction(0, 245, true) -- disable chat
 end
 
