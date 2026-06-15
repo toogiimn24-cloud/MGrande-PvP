@@ -1,0 +1,6 @@
+cache/
+txData/default/
+txData/*/cache/
+txData/*/logs/
+*.log
+*.bak
