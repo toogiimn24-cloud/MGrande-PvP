@@ -1,8 +1,8 @@
 SVConfig = {}
 
 SVConfig.Webhook = {
-    enabled = true,
-    url = 'https://discord.com/api/webhooks/1378521778900701245/FsssiBT59SLyHnVg8wla0JFCxzZvQtWw9Ez1M9g4PxNBktalurICm-LnYPn9zQf-jdlp',
+    enabled = false,
+    url = '',
     botName = 'FearX Community Service',
     color = 16753920,
     footer = 'FearX Community Service System',

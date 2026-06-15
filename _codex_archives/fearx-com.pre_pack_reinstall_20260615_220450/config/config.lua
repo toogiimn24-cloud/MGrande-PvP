@@ -1,14 +1,14 @@
 Config = {}
 
-Config.Framework = 'ESX'
+Config.Framework = 'QB'
 
 Config.ESX = {
-    enabled = true,
+    enabled = false,
     sharedObject = 'esx:getSharedObject'
 }
 
 Config.QB = {
-    enabled = false,
+    enabled = true,
     coreObject = 'qb-core'
 }
 
@@ -52,7 +52,7 @@ Config.AnimName = 'base'
 
 Config.ProgressBarTime = 10000
 
-Config.WasabiAmbulance = true
+Config.WasabiAmbulance = false
 
 Config.Notifications = {
     title = 'Community Service',

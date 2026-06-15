@@ -1,5 +1,5 @@
 BDEV = {
-    Framework = "esx",
+    Framework = "qbcore",
 }
 
 BDEV.Killfeed = {
@@ -9,7 +9,7 @@ BDEV.Killfeed = {
         @LOCAL: The killfeed will only be displayed to the player who killed the target
         @NEARBY: The killfeed will be displayed to all players within a certain radius of the kill
     ]]
-    type = "NEARBY", 
+    type = "GLOBAL", 
     NearbyDistance = 100, -- The distance in which the killfeed will be displayed to other players
     enableJobsColor = true, -- Enable job colors in the killfeed
     jobs = {
@@ -19,7 +19,7 @@ BDEV.Killfeed = {
 }
 
 --@Debug
-BDEV.DEBUG = true -- Set to false to disable debug messages
+BDEV.DEBUG = false -- Set to false to disable debug messages
 
 --[[
     Exports:

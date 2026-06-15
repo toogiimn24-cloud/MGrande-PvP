@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="nui-background" content="transparent">
+    <title>Community Service</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-transparent">
+    <div id="widget-container" class="glass-widget theme-default">
+        <h2 class="text-lg font-bold mb-4 text-center">Community Service</h2>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 text-sm">
+            <div class="flex flex-col">
+                <span class="font-semibold text-gray-200 mb-1">Admin:</span>
+                <span class="font-medium" id="admin-name">N/A</span>
+            </div>
+            <div class="flex flex-col">
+                <span class="font-semibold text-gray-200 mb-1">Tasks:</span>
+                <span class="font-medium" id="amount-text">0</span>
+            </div>
+            <div class="flex flex-col">
+                <span class="font-semibold text-gray-200 mb-1">Reason:</span>
+                <p class="font-medium" id="reason-text">N/A</p>
+            </div>
+            <div class="flex flex-col">
+                <span class="font-semibold text-gray-200 mb-1">Release Location:</span>
+                <span class="font-medium" id="release-location">Saved</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

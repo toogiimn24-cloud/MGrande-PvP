@@ -35,4 +35,3 @@ escrow_ignore {
     'config.lua'
 }
 
-dependency '/assetpacks'

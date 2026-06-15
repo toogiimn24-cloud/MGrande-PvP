@@ -51,7 +51,7 @@ function Framework:Load()
 
         print("BDEV: Loaded ESX Framework")
     elseif BDEV.Framework == "qbcore" then
-        Framework.object = exports["qb-core"]:getSharedObject()
+        Framework.object = exports["qb-core"]:GetCoreObject()
 
         if not IsDuplicityVersion() then
             -- loop to check if the object is loaded
@@ -356,7 +356,7 @@ function Framework:getPlayerGroup(source)
 
         return playerObject.getGroup()
     elseif BDEV.Framework == "qbcore" then
-        return QBCore.Functions.GetPermission(source)
+        return Framework.object.Functions.GetPermission(source)
     else
         --[[
             Here you can add your own framework support.
