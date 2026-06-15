@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+<meta charset="UTF-8">
+<title>MGRANDE PVP</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght=400;700&family=Rajdhani:wght=600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="screen">
+  <div class="bg"></div>
+  <div class="vignette"></div>
+  <div class="overlay"></div>
+  <div class="scanlines"></div>
+  <div class="top-bar"></div>
+  <div class="bottom-bar"></div>
+  <div class="corner corner-tl"></div>
+  <div class="corner corner-tr"></div>
+  <div class="corner corner-bl"></div>
+  <div class="corner corner-br"></div>
+  <div class="side-line side-line-l"></div>
+  <div class="side-line side-line-r"></div>
+  <span class="edge-label edge-tl">FIVEM SERVER</span>
+  <span class="edge-label edge-tr">EST. 2026</span>
+  <div class="title-area">
+    <div class="server-name">MGRANDE</div>
+    <div class="pvp-badge">PVP</div>
+    <div class="divider">
+      <div class="div-line"></div>
+      <div class="div-rect"></div>
+      <div class="div-line div-line-r"></div>
+    </div>
+    <div class="tagline">FIGHT &nbsp;&middot;&nbsp; SURVIVE &nbsp;&middot;&nbsp; DOMINATE</div>
+  </div>
+  <div class="load-area">
+    <div class="load-label">LOADING</div>
+    <div class="bar-wrap"><div class="bar-fill"></div></div>
+    <div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+  </div>
+  <button class="sound-toggle" id="sound-toggle" type="button" aria-label="Toggle music">
+    <span class="sound-icon" id="sound-icon">ON</span>
+    <span class="sound-text" id="sound-text">MUSIC</span>
+  </button>
+  <audio id="loading-music" src="music.mp3" autoplay loop></audio>
+</div>
+<script>
+  const music = document.getElementById('loading-music');
+  const toggle = document.getElementById('sound-toggle');
+  const soundIcon = document.getElementById('sound-icon');
+  music.volume = 0.45;
+
+  function updateSoundState() {
+    const isOn = !music.paused && !music.muted && music.volume > 0;
+    soundIcon.textContent = isOn ? 'ON' : 'OFF';
+    toggle.classList.toggle('is-muted', !isOn);
+  }
+
+  function playMusic() {
+    music.muted = false;
+    music.volume = 0.45;
+    music.play().then(updateSoundState).catch(updateSoundState);
+  }
+
+  function stopMusic() {
+    music.muted = true;
+    music.volume = 0;
+    music.pause();
+    updateSoundState();
+  }
+
+  function toggleMusic() {
+    if (music.paused || music.muted || music.volume === 0) {
+      playMusic();
+    } else {
+      stopMusic();
+    }
+  }
+
+  toggle.addEventListener('click', toggleMusic);
+  document.addEventListener('keydown', (event) => {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      stopMusic();
+      return;
+    }
+
+    if (event.key.toLowerCase() === 'm') toggleMusic();
+  });
+
+  playMusic();
+</script>
+</body>
+</html>

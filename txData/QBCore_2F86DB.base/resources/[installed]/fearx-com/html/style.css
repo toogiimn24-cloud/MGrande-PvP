@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background: transparent !important;
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.glass-widget {
+    display: none;
+    position: fixed;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 768px;
+    padding: 16px;
+    color: white;
+    border-radius: 12px;
+}
+
+.glass-widget.show {
+    display: block;
+}
+
+.theme-default { background: rgba(255, 255, 255, 0.3); }
+.theme-red { background: rgba(239, 68, 68, 0.3); }
+.theme-orange { background: rgba(249, 115, 22, 0.3); }
+.theme-yellow { background: rgba(234, 179, 8, 0.3); }
+.theme-green { background: rgba(34, 197, 94, 0.3); }
+.theme-blue { background: rgba(59, 130, 246, 0.3); }
+.theme-indigo { background: rgba(99, 102, 241, 0.3); }
+.theme-violet { background: rgba(139, 92, 246, 0.3); }
+.theme-purple { background: rgba(168, 85, 247, 0.3); }
+.theme-pink { background: rgba(236, 72, 153, 0.3); }
+.theme-teal { background: rgba(20, 184, 166, 0.3); }

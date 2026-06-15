@@ -263,6 +263,7 @@ Config.Teleports = {
 }
 
 Config.CarWash = {
+    showBlips = false,
     dirtLevel = 0.1,                                                                                   -- threshold for the dirt level to be counted as dirty
     defaultPrice = 20,                                                                                 -- default price for the carwash
     locations = {

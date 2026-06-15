@@ -11,7 +11,6 @@ local Translations = {
         location_not_exist = 'Locatie bestaat niet',
         duplicate_license = 'Dubbele Rockstar-licentie gevonden',
         no_valid_license  = 'Geen geldige Rockstar-licentie gevonden',
-        not_whitelisted = 'U bent niet whitelisted voor deze server',
         server_already_open = 'De server is al open',
         server_already_closed = 'De server is al gesloten',
         no_permission = 'Je hebt geen permissie voor dit..',
@@ -33,13 +32,12 @@ local Translations = {
         off_duty = 'U bent nu uit dienst!',
         checking_ban = 'Hallo %s. We checken even of je op onze banlist staat.',
         join_server = 'Welkom %s bij {Server Name}.',
-        checking_whitelisted = 'Hallo %s. We checken even of je toegang hebt.',
         exploit_banned = 'Je bent verbannen wegens cheating. Bekijk onze Discord voor meer informatie: %{discord}',
         exploit_dropped = 'Je bent gekicked voor exploitation',
     },
     command = {
         tp = {
-            help = 'Teleport naar speler of coördinaten (Alleen Admin)',
+            help = 'Teleport naar speler of coÃ¶rdinaten (Alleen Admin)',
             params = {
                 x = { name = 'id/x', help = 'ID van speler of X-positie'},
                 y = { name = 'y', help = 'Y positie'},

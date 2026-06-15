@@ -172,7 +172,7 @@ QBCore.Commands.Add('closeserver', Lang:t('command.closeserver.help'), { { name 
         QBCore.Config.Server.Closed = true
         QBCore.Config.Server.ClosedReason = reason
         for k in pairs(QBCore.Players) do
-            if not QBCore.Functions.HasPermission(k, QBCore.Config.Server.WhitelistPermission) then
+            if not QBCore.Functions.HasPermission(k, 'admin') then
                 QBCore.Functions.Kick(k, reason, nil, nil)
             end
         end

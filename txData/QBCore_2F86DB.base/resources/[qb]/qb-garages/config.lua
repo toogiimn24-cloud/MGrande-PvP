@@ -22,7 +22,7 @@ Config.Garages = {
         spawnPoint = {
             vector4(265.96, -332.3, 44.51, 250.68)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Public Parking',
         blipNumber = 357,
         blipColor = 3,
@@ -35,7 +35,7 @@ Config.Garages = {
         spawnPoint = {
             vector4(895.39, -4.75, 78.35, 146.85)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Public Parking',
         blipNumber = 357,
         blipColor = 3,
@@ -48,7 +48,7 @@ Config.Garages = {
         spawnPoint = {
             vector4(-341.57, -767.45, 33.56, 92.61)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Public Parking',
         blipNumber = 357,
         blipColor = 3,
@@ -61,7 +61,7 @@ Config.Garages = {
         spawnPoint = {
             vector4(-1145.2, -745.42, 19.26, 108.22)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Public Parking',
         blipNumber = 357,
         blipColor = 3,
@@ -74,7 +74,7 @@ Config.Garages = {
         spawnPoint = {
             vector4(60.8, 17.54, 68.82, 339.7)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Public Parking',
         blipNumber = 357,
         blipColor = 3,
@@ -87,7 +87,7 @@ Config.Garages = {
         spawnPoint = {
             vector4(-472.39, -787.71, 30.14, 180.52)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Public Parking',
         blipNumber = 357,
         blipColor = 3,
@@ -100,7 +100,7 @@ Config.Garages = {
         spawnPoint = {
             vector4(375.09, 294.66, 102.86, 164.04)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Public Parking',
         blipNumber = 357,
         blipColor = 3,
@@ -113,7 +113,7 @@ Config.Garages = {
         spawnPoint = {
             vector4(-779.77, -2040.18, 8.47, 315.34)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Public Parking',
         blipNumber = 357,
         blipColor = 3,
@@ -126,7 +126,7 @@ Config.Garages = {
         spawnPoint = {
             vector4(-1188.14, -1487.95, 3.97, 124.06)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Public Parking',
         blipNumber = 357,
         blipColor = 3,
@@ -139,7 +139,7 @@ Config.Garages = {
         spawnPoint = {
             vector4(1127.7, 2647.84, 37.58, 1.41)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Public Parking',
         blipNumber = 357,
         blipColor = 3,
@@ -152,7 +152,7 @@ Config.Garages = {
         spawnPoint = {
             vector4(898.38, 3649.41, 32.36, 90.75)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Public Parking',
         blipNumber = 357,
         blipColor = 3,
@@ -165,7 +165,7 @@ Config.Garages = {
         spawnPoint = {
             vector4(1725.4, 3716.78, 34.15, 20.54)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Public Parking',
         blipNumber = 357,
         blipColor = 3,
@@ -178,7 +178,7 @@ Config.Garages = {
         spawnPoint = {
             vector4(62.15, 6403.41, 30.81, 211.38)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Public Parking',
         blipNumber = 357,
         blipColor = 3,
@@ -191,7 +191,7 @@ Config.Garages = {
         spawnPoint = {
             vector4(168.34, -3236.1, 5.43, 272.05)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Public Parking',
         blipNumber = 357,
         blipColor = 3,
@@ -208,7 +208,7 @@ Config.Garages = {
             vector4(232.33, -807.97, 30.02, 69.17),
             vector4(234.42, -802.76, 30.04, 67.2)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Public Parking',
         blipNumber = 357,
         blipColor = 3,
@@ -221,7 +221,7 @@ Config.Garages = {
         spawnPoint = {
             vector4(2550.17, 4681.96, 33.81, 17.05)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Public Parking',
         blipNumber = 357,
         blipColor = 3,
@@ -234,7 +234,7 @@ Config.Garages = {
         spawnPoint = {
             vector4(396.55, -1643.93, 28.88, 321.91)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Depot Lot',
         blipNumber = 68,
         blipColor = 3,
@@ -322,7 +322,7 @@ Config.Garages = {
         spawnPoint = {
             vector4(-998.37, -2985.01, 13.95, 61.09)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Hangar',
         blipNumber = 360,
         blipColor = 3,
@@ -336,7 +336,7 @@ Config.Garages = {
             vector4(-745.22, -1468.72, 5.39, 319.84),
             vector4(-724.36, -1443.61, 5.39, 135.78)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Hangar',
         blipNumber = 360,
         blipColor = 3,
@@ -349,7 +349,7 @@ Config.Garages = {
         spawnPoint = {
             vector4(1742.83, 3266.83, 41.24, 102.64)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Hangar',
         blipNumber = 360,
         blipColor = 3,
@@ -362,7 +362,7 @@ Config.Garages = {
         spawnPoint = {
             vector4(-1828.25, 2975.44, 32.81, 57.24)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Hangar',
         blipNumber = 360,
         blipColor = 3,
@@ -375,7 +375,7 @@ Config.Garages = {
         spawnPoint = {
             vector4(-1270.01, -3377.53, 14.33, 329.25)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Air Depot',
         blipNumber = 359,
         blipColor = 3,
@@ -388,7 +388,7 @@ Config.Garages = {
         spawnPoint = {
             vector4(-796.64, -1502.6, -0.09, 111.49)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Boathouse',
         blipNumber = 356,
         blipColor = 3,
@@ -401,7 +401,7 @@ Config.Garages = {
         spawnPoint = {
             vector4(-289.2, 6637.96, 1.01, 45.5)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Boathouse',
         blipNumber = 356,
         blipColor = 3,
@@ -414,7 +414,7 @@ Config.Garages = {
         spawnPoint = {
             vector4(1297.82, 4209.61, 30.12, 253.5)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Boathouse',
         blipNumber = 356,
         blipColor = 3,
@@ -427,7 +427,7 @@ Config.Garages = {
         spawnPoint = {
             vector4(-729.77, -1355.49, 1.19, 142.5)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'LSYMC Depot',
         blipNumber = 356,
         blipColor = 3,
@@ -440,7 +440,7 @@ Config.Garages = {
         spawnPoint = {
             vector4(2324.57, 3117.79, 48.21, 4.05)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Big Rig Depot',
         blipNumber = 68,
         blipColor = 2,
@@ -453,7 +453,7 @@ Config.Garages = {
         spawnPoint = {
             vector4(167.0, -3203.89, 5.94, 271.27)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Big Rig Parking',
         blipNumber = 357,
         blipColor = 2,
@@ -466,7 +466,7 @@ Config.Garages = {
         spawnPoint = {
             vector4(127.69, 6605.84, 31.93, 223.67)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Big Rig Parking',
         blipNumber = 357,
         blipColor = 2,
@@ -479,7 +479,7 @@ Config.Garages = {
         spawnPoint = {
             vector4(-2521.61, 2326.45, 33.13, 88.7)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Big Rig Parking',
         blipNumber = 357,
         blipColor = 2,
@@ -492,7 +492,7 @@ Config.Garages = {
         spawnPoint = {
             vector4(2561.67, 476.68, 108.49, 177.86)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Big Rig Parking',
         blipNumber = 357,
         blipColor = 2,
@@ -505,7 +505,7 @@ Config.Garages = {
         spawnPoint = {
             vector4(-39.39, -2527.81, 6.08, 326.18)
         },
-        showBlip = true,
+        showBlip = false,
         blipName = 'Big Rig Parking',
         blipNumber = 357,
         blipColor = 2,

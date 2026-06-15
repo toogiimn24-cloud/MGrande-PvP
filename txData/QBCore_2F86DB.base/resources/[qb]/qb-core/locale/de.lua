@@ -2,8 +2,8 @@ local Translations = {
     error = {
         not_online = 'Der Spieler ist nicht online',
         wrong_format = 'Falsches Format',
-        missing_args = 'Nicht alle Argumente wurden ausgefüllt (x, y, z)',
-        missing_args2 = 'Alle Argumente müssen ausgefüllt sein!',
+        missing_args = 'Nicht alle Argumente wurden ausgefÃ¼llt (x, y, z)',
+        missing_args2 = 'Alle Argumente mÃ¼ssen ausgefÃ¼llt sein!',
         no_access = 'Kein Zugriff auf diesen Befehl',
         company_too_poor = 'Dein Arbeitgeber hat kein Geld mehr',
         item_not_exist = 'Das Item existiert nicht',
@@ -11,29 +11,27 @@ local Translations = {
         location_not_exist = 'Der Ort existiert nicht',
         duplicate_license = 'Doppelte Rockstar-Lizenz gefunden',
         no_valid_license  = 'Keine verifizierte Rockstar-Lizenz gefunden',
-        not_whitelisted = 'Du bist nicht gewhitelisted',
-        server_already_open = 'Der Server ist schon geöffnet',
+        server_already_open = 'Der Server ist schon geÃ¶ffnet',
         server_already_closed = 'Der Server ist schon geschlossen',
-        no_permission = 'Du hast keine Rechte dafür..',
+        no_permission = 'Du hast keine Rechte dafÃ¼r..',
         no_waypoint = 'Kein Wegpunkt gesetzt.',
         tp_error = 'Error beim teleportieren.',
     },
     success = {
-        server_opened = 'Der Server wurde geöffnet',
+        server_opened = 'Der Server wurde geÃ¶ffnet',
         server_closed = 'Der Server wurde geschlossen',
         teleported_waypoint = 'Zum Wegpunkt teleportiert.',
     },
     info = {
-        received_paycheck = 'Du hast dein Gehalt in Höhe von $%{value} erhalten',
+        received_paycheck = 'Du hast dein Gehalt in HÃ¶he von $%{value} erhalten',
         job_info = 'Beruf: %{value} | Dienstgrad: %{value2} | im Dienst: %{value3}',
         gang_info = 'Gang: %{value} | Rang: %{value2}',
         on_duty = 'Du befindest dich nun im Dienst!',
         off_duty = 'Du befindest dich nun nicht mehr im Dienst!',
-        checking_ban = 'Hallo %s. Wir prüfen, ob du gebannt wurdest.',
+        checking_ban = 'Hallo %s. Wir prÃ¼fen, ob du gebannt wurdest.',
         join_server = 'Willkommen %s bei {Server Name}.',
-        checking_whitelisted = 'Hallo %s. Wir prüfen deine Erlaubnis.',
-        exploit_banned = 'Du wurdest fürs Cheaten gebannt. Meld dich auf dem Discord: %{discord}',
-        exploit_dropped = 'Du wurdest gekickt, für das Ausnutzen von Fehlern',
+        exploit_banned = 'Du wurdest fÃ¼rs Cheaten gebannt. Meld dich auf dem Discord: %{discord}',
+        exploit_dropped = 'Du wurdest gekickt, fÃ¼r das Ausnutzen von Fehlern',
     },
     command = {
         tp = {
@@ -60,11 +58,11 @@ local Translations = {
                 permission = { name = 'permission', help = 'Zugriffsrechte' },
             },
         },
-        openserver = { help = 'Öffne den Server für jeden (Nur Admins)' },
+        openserver = { help = 'Ã–ffne den Server fÃ¼r jeden (Nur Admins)' },
         closeserver = {
-            help = 'Schließe den Server für Leute ohne Rechte (Nur Admins)',
+            help = 'SchlieÃŸe den Server fÃ¼r Leute ohne Rechte (Nur Admins)',
             params = {
-                reason = { name = 'reason', help = 'Grund fürs schließen (optional)' },
+                reason = { name = 'reason', help = 'Grund fÃ¼rs schlieÃŸen (optional)' },
             },
         },
         car = {
@@ -86,7 +84,7 @@ local Translations = {
             },
         },
         setmoney = {
-            help = 'Setze die Geldmenge für einen Spieler (Nur Admins)',
+            help = 'Setze die Geldmenge fÃ¼r einen Spieler (Nur Admins)',
             params = {
                 id = { name = 'id', help = 'Spieler ID' },
                 moneytype = { name = 'moneytype', help = 'Geldtyp (Bargeld, Bank, Crypto)' },

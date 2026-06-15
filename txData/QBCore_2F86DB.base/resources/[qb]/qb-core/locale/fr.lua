@@ -1,45 +1,43 @@
 local Translations = {
     error = {
-        not_online = 'Le joueur n\'est pas connecté',
+        not_online = 'Le joueur n\'est pas connectÃ©',
         wrong_format = 'Format incorrect',
         missing_args = 'Arguments manquants (x, y, z)',
-        missing_args2 = 'Tous les arguments doivent être remplis!',
-        no_access = 'Vous n\'avez pas accès à cette commande',
+        missing_args2 = 'Tous les arguments doivent Ãªtre remplis!',
+        no_access = 'Vous n\'avez pas accÃ¨s Ã  cette commande',
         company_too_poor = 'Votre entreprise n\'a pas suffisamment d\'argent',
         item_not_exist = 'L\'objet n\'existe pas',
         too_heavy = 'L\'inventaire est plein',
         location_not_exist = 'Destination inexistante',
-        duplicate_license = 'License Rockstar Dupliquée trouvée',
-        no_valid_license  = 'Aucune License Rockstar trouvée',
-        not_whitelisted = 'Vous n\'êtes pas Whitelisté sur ce serveur',
-        server_already_open = 'Le serveur est déjà ouvert',
-        server_already_closed = 'Le serveur est déjà fermé',
+        duplicate_license = 'License Rockstar DupliquÃ©e trouvÃ©e',
+        no_valid_license  = 'Aucune License Rockstar trouvÃ©e',
+        server_already_open = 'Le serveur est dÃ©jÃ  ouvert',
+        server_already_closed = 'Le serveur est dÃ©jÃ  fermÃ©',
         no_permission  = 'Vous n\'avez pas les permissions pour cela',
-        no_waypoint = 'Pas de marqueur défini.',
-        tp_error = 'Erreur lors de la téléportation.',
+        no_waypoint = 'Pas de marqueur dÃ©fini.',
+        tp_error = 'Erreur lors de la tÃ©lÃ©portation.',
     },
     success = {
-        server_opened = 'Le serveur a été ouvert',
-        server_closed = 'Le serveur a été fermé',
-        teleported_waypoint = 'Téléporté au marqueur',
+        server_opened = 'Le serveur a Ã©tÃ© ouvert',
+        server_closed = 'Le serveur a Ã©tÃ© fermÃ©',
+        teleported_waypoint = 'TÃ©lÃ©portÃ© au marqueur',
     },
     info = {
-        received_paycheck = 'Vous avez reçu votre salaire de : $%{value}',
+        received_paycheck = 'Vous avez reÃ§u votre salaire de : $%{value}',
         job_info = 'Emplois: %{value} | Grade: %{value2} | Service: %{value3}',
         gang_info = 'Gang: %{value} | Grade: %{value2}',
         org_info = 'Org: %{value} | Grade: %{value2}',
-        on_duty = 'Vous êtes désormais en service!',
-        off_duty = 'Vous n\'êtes plus en service!',
-        checking_ban = 'Bonjour %s. Nous verifions si vous êtes banni.',
+        on_duty = 'Vous Ãªtes dÃ©sormais en service!',
+        off_duty = 'Vous n\'Ãªtes plus en service!',
+        checking_ban = 'Bonjour %s. Nous verifions si vous Ãªtes banni.',
         validatin_license = 'Bonjour %s. Nous validons votre License Rockstar.',
         join_server = 'Bienvenue %s sur {Server Name}.',
-        checking_whitelisted = 'Bonjour %s. Nous vérifions si vous êtes Whitelist.',
-        exploit_banned = 'Vous avez été ban parceque vous avez triché. Allez sur notre discord pour plus d\'information: %{discord}',
-        exploit_dropped = 'Vous avez été kick pour exploitation.',
+        exploit_banned = 'Vous avez Ã©tÃ© ban parceque vous avez trichÃ©. Allez sur notre discord pour plus d\'information: %{discord}',
+        exploit_dropped = 'Vous avez Ã©tÃ© kick pour exploitation.',
     },
     command = {
         tp = {
-            help = 'TP vers un joueur ou des coordonnées (Admin Only)',
+            help = 'TP vers un joueur ou des coordonnÃ©es (Admin Only)',
             params = {
                 x = { name ='id/x', help = 'ID du joueur ou position X',},
                 y = { name = 'y', help = 'Position Y'},
@@ -47,9 +45,9 @@ local Translations = {
             },
         },
         tpm = { help = 'TP au marqueur (Admin Only)'},
-        togglepvp = { help = 'Activer/Désactiver le PVP sur le serveur (Admin Only)'},
+        togglepvp = { help = 'Activer/DÃ©sactiver le PVP sur le serveur (Admin Only)'},
         addpermission = {
-            help = 'Donner des permissions à un joueur (God Only)',
+            help = 'Donner des permissions Ã  un joueur (God Only)',
             params = {
                 id = { name = 'id', help = 'ID du joueur',},
                 permission = { name = 'permission', help = 'Niveau de permission',},
@@ -62,7 +60,7 @@ local Translations = {
                 permission = { name = 'permission', help = 'Niveau de permission',},
             },
         },
-        openserver = { help = 'Ouvrir le serveur à tout le monde (Admin Only)'},
+        openserver = { help = 'Ouvrir le serveur Ã  tout le monde (Admin Only)'},
         closeserver = {
             help = 'Fermer le serveur au joueurs sans permissions (Admin Only)',
             params = {
@@ -70,17 +68,17 @@ local Translations = {
             },
         },
         car = {
-            help = 'Faire apparaître un véhicule (Admin Only)',
+            help = 'Faire apparaÃ®tre un vÃ©hicule (Admin Only)',
             params = {
-                model = { name = 'model', help = 'Modèle du véhicule',},
+                model = { name = 'model', help = 'ModÃ¨le du vÃ©hicule',},
             },
         },
-        dv = { help = 'Supprimer un véhicule (Admin Only)'},
-        dvall = { help = 'Supprimer tous les véhicules (Admin Only)' },
+        dv = { help = 'Supprimer un vÃ©hicule (Admin Only)'},
+        dvall = { help = 'Supprimer tous les vÃ©hicules (Admin Only)' },
         dvp = { help = 'Supprimer tous les Peds (Admin Only)' },
         dvo = { help = 'Supprimer tous les Objets (Admin Only)' },
         givemoney = {
-            help = 'Donner de l\'argent à un joueur (Admin Only)',
+            help = 'Donner de l\'argent Ã  un joueur (Admin Only)',
             params = {
                 id = { name = 'id', help = 'ID du joueur',},
                 moneytype = { name = 'moneytype', help = 'Type d\'argent (cash, bank, crypto)',},
@@ -88,7 +86,7 @@ local Translations = {
             },
         },
         setmoney = {
-            help = 'Définir le solde d\'un joueur (Admin Only)',
+            help = 'DÃ©finir le solde d\'un joueur (Admin Only)',
             params = {
                 id = { name = 'id', help = 'ID du joueur',},
                 moneytype = { name = 'moneytype', help = 'Type d\'argent (cash, bank, crypto)',},
@@ -97,7 +95,7 @@ local Translations = {
         },
         job = { help = 'Voir son travail'},
         setjob = {
-            help = 'Définir le travail d\'un joueur (Admin Only)',
+            help = 'DÃ©finir le travail d\'un joueur (Admin Only)',
             params = {
                 id = { name = 'id', help = 'ID du joueur',},
                 job = { name = 'job', help = 'Nom du Travail',},
@@ -106,7 +104,7 @@ local Translations = {
         },
         gang = { help = 'Voir son gang'},
         setgang = {
-            help = 'Définir le gang d\'un joueur (Admin Only)',
+            help = 'DÃ©finir le gang d\'un joueur (Admin Only)',
             params = {
                 id = { name = 'id', help = 'ID du joueur',},
                 gang = { name = 'gang', help = 'Nom du Gang',},

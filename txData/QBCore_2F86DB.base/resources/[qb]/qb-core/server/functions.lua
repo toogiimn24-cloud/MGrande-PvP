@@ -532,7 +532,7 @@ end
 ---@param setKickReason boolean
 ---@param deferrals boolean
 function QBCore.Functions.Kick(source, reason, setKickReason, deferrals)
-    reason = '\n' .. reason .. '\n🔸 Check our Discord for further information: ' .. QBCore.Config.Server.Discord
+    reason = '\n' .. reason .. '\nÃ°Å¸â€Â¸ Check our Discord for further information: ' .. QBCore.Config.Server.Discord
     if setKickReason then
         setKickReason(reason)
     end
@@ -559,15 +559,6 @@ function QBCore.Functions.Kick(source, reason, setKickReason, deferrals)
             Wait(5000)
         end
     end)
-end
-
----Check if player is whitelisted, kept like this for backwards compatibility or future plans
----@param source any
----@return boolean
-function QBCore.Functions.IsWhitelisted(source)
-    if not QBCore.Config.Server.Whitelist then return true end
-    if QBCore.Functions.HasPermission(source, QBCore.Config.Server.WhitelistPermission) then return true end
-    return false
 end
 
 -- Setting & Removing Permissions

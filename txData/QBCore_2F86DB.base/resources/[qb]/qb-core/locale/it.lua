@@ -5,22 +5,21 @@ error = {
         missing_args = 'Devi inserire ancora qualcosa(x, y, z)',
         missing_args2 = 'Tutti gli argomenti devono essere compilati!',
         no_access = 'Non hai accesso a questo comando',
-        company_too_poor = 'La tua azienda è povera',
+        company_too_poor = 'La tua azienda Ã¨ povera',
         item_not_exist = 'Oggetto inesistente',
         too_heavy = 'Inventario pieno',
         location_not_exist = 'Destinazione Inesistente',
         duplicate_license = 'Licenza Rockstar Duplicata',
         no_valid_license = 'Licenza Rockstar non Valida',
-        not_whitelisted = 'Non sei nella Allowlist',
-        server_already_open = 'Il server è già aperto',
-        server_already_closed = 'Il server è già chiuso',
+        server_already_open = 'Il server Ã¨ giÃ  aperto',
+        server_already_closed = 'Il server Ã¨ giÃ  chiuso',
         no_permission = 'Non hai i permessi necessari..',
         no_waypoint = 'Nessun marker impostato.',
         tp_error = 'Errore durante il TP.'
     },
     success = {
-        server_opened = 'Il server ora è aperto',
-        server_closed = 'Il server ora è chiuso',
+        server_opened = 'Il server ora Ã¨ aperto',
+        server_closed = 'Il server ora Ã¨ chiuso',
         teleported_waypoint = 'TP al marker.'
     },
     info = {
@@ -31,7 +30,6 @@ error = {
         off_duty = 'Sei fuori servizio!',
         checking_ban = 'Ciao %s. Sto controllando che tu non sia bannato!',
         join_server = 'Benvenuto %s su {Server Name}.',
-        checking_whitelisted = 'Ciao %s. Sto controllando la allowlist.',
         exploit_banned = 'Sei stato bannato per Cheating o Exploit. Apri un ticket per maggiori informazioni: %{discord}',
         exploit_dropped = 'Sei stato espulso per Exploit'
     },

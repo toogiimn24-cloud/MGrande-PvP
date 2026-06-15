@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    font-size: .8vw;
+    user-select: none;
+}
+.Container {
+    position: absolute;
+    bottom: 18vw;
+    left: 1.6vw;
+}
+.Container h1 {
+    padding: .2vw .9vw;
+    border-radius: .8vw;
+    background: linear-gradient(
+      90deg,
+      rgba(104, 1, 1, 0.618) 0%,
+      rgba(0, 0, 0, 0.168) 100%
+    );
+    font-size: 1vw;
+    color: white;
+    text-shadow: .0vw .0vw .5vw black;
+    font-weight: bold;
+    margin-bottom: 0.25vw;
+    display: flex;
+    align-items: center;
+    gap: 0.3vw;
+}
+.Container span {
+    color: red;
+    font-weight: bold;
+}
+
+.icon-skull {
+    color: #fff;
+    margin-right: 0.4vw;
+    font-size: 1.05vw;
+    filter: drop-shadow(0 0 0.09vw #111a);
+}
+.icon-money {
+    color: #ffe666;
+    margin-right: 0.4vw;
+    font-size: 1.05vw;
+    filter: drop-shadow(0 0 0.09vw #111a);
+}
+.bot {
+    bottom: 16vw;
+}

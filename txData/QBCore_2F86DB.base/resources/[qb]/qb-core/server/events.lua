@@ -57,13 +57,6 @@ local function onPlayerConnecting(name, _, deferrals)
         return deferrals.done(Lang:t('error.connecting_database_error'))
     end
 
-    if QBCore.Config.Server.Whitelist then
-        Wait(0)
-        deferrals.update(string.format(Lang:t('info.checking_whitelisted'), name))
-        if not QBCore.Functions.IsWhitelisted(src) then
-            return deferrals.done(Lang:t('error.not_whitelisted'))
-        end
-    end
 
     Wait(0)
     deferrals.update(string.format('Hello %s. Your license is being checked', name))
@@ -104,7 +97,7 @@ RegisterNetEvent('QBCore:Server:CloseServer', function(reason)
         QBCore.Config.Server.Closed = true
         QBCore.Config.Server.ClosedReason = reason
         for k in pairs(QBCore.Players) do
-            if not QBCore.Functions.HasPermission(k, QBCore.Config.Server.WhitelistPermission) then
+            if not QBCore.Functions.HasPermission(k, 'admin') then
                 QBCore.Functions.Kick(k, reason, nil, nil)
             end
         end
@@ -196,7 +189,7 @@ RegisterNetEvent('QBCore:Server:OnPlayerLoaded', function()
     TriggerClientEvent('QBCore:Client:OnPlayerLoaded', src)
 end)
 
--- Central server-side data change handler — re-fires legacy events for backward compat
+-- Central server-side data change handler Ã¢â‚¬â€ re-fires legacy events for backward compat
 AddEventHandler('QBCore:Server:OnPlayerUpdated', function(src, key, val)
     if key == 'job' then
         TriggerEvent('QBCore:Server:OnJobUpdate', src, val)

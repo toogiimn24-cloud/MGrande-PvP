@@ -1614,17 +1614,6 @@ Citizen.CreateThread(function()
             AddTextComponentString(Lang:t('store.barber'))
             EndTextCommandSetBlipName(barberShop)
         end
-
-        if Config.Stores[k].shopType == 'surgeon' then
-            local surgeonShop = AddBlipForCoord(Config.Stores[k].coords)
-            SetBlipSprite(surgeonShop, 71)
-            SetBlipColour(surgeonShop, 0)
-            SetBlipScale(surgeonShop, 0.7)
-            SetBlipAsShortRange(surgeonShop, true)
-            BeginTextCommandSetBlipName('STRING')
-            AddTextComponentString(Lang:t('store.surgeon'))
-            EndTextCommandSetBlipName(surgeonShop)
-        end
     end
 end)
 -- We define this as function so we don't get a nil value for job. The function triggers when the player is loaded :)

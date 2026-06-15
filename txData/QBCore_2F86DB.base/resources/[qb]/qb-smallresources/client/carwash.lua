@@ -104,6 +104,7 @@ CreateThread(function()
 end)
 
 CreateThread(function()
+    if Config.CarWash and Config.CarWash.showBlips == false then return end
     for k in pairs(Config.CarWash.locations) do
         local carWash = AddBlipForCoord(Config.CarWash.locations[k].coords.x, Config.CarWash.locations[k].coords.y, Config.CarWash.locations[k].coords.z)
         SetBlipSprite(carWash, 100)

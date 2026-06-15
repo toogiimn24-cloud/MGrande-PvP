@@ -24,6 +24,12 @@ local function ensureOutfitSchema()
 
         MySQL.query.await([[
             ALTER TABLE `player_outfits`
+              ADD COLUMN IF NOT EXISTS `props` LONGTEXT DEFAULT NULL,
+              ADD COLUMN IF NOT EXISTS `components` LONGTEXT DEFAULT NULL;
+        ]])
+
+        MySQL.query.await([[
+            ALTER TABLE `player_outfits`
               MODIFY `props` LONGTEXT DEFAULT NULL,
               MODIFY `components` LONGTEXT DEFAULT NULL;
         ]])
@@ -424,3 +430,4 @@ lib.addCommand("clearstuckprops", { help = _L("commands.clearstuckprops.title") 
 end)
 
 lib.versionCheck("iLLeniumStudios/illenium-appearance")
+

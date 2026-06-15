@@ -19,6 +19,7 @@ Config.RefillTimePerLitre = 0.5 -- Time in seconds to refill 1 litre of fuel
 -- Blip settings for the gas stations
 -- see https://docs.fivem.net/docs/game-references/blips/
 Config.Blip = {
+    Show = false,
     Sprite = 361,
     Color = 0,
     Scale = 0.7,

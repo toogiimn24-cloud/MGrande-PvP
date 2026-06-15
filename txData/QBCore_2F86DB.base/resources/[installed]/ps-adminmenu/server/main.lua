@@ -1,13 +1,19 @@
 local coreResource = Config.Core == "qbx_core" and "qb-core" or Config.Core
 QBCore = exports[coreResource]:GetCoreObject()
 
+local function openAdminMenu(source)
+    TriggerClientEvent('ps-adminmenu:client:OpenUI', source)
+end
+
 lib.addCommand('admin', {
     help = 'Open the admin menu',
     restricted = 'qbcore.mod'
-}, function(source)
-    if not QBCore.Functions.IsOptin(source) then TriggerClientEvent('QBCore:Notify', source, 'You are not on admin duty', 'error'); return end
-    TriggerClientEvent('ps-adminmenu:client:OpenUI', source)
-end)
+}, openAdminMenu)
+
+lib.addCommand('adminmenu', {
+    help = 'Open the admin menu',
+    restricted = 'qbcore.mod'
+}, openAdminMenu)
 
 RegisterNetEvent('ps-adminmenu:server:ValidateClientAction', function(key, selectedData, event, perms)
     local src = source

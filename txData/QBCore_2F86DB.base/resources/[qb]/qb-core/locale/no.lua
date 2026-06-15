@@ -3,7 +3,7 @@ local Translations = {
         not_online = 'Spiller ikke online',
         wrong_format = 'Ugyldig format',
         missing_args = 'Ikke alle argumenter er lagt inn (x, y, z)',
-        missing_args2 = 'Alle argumenter må fylles ut!',
+        missing_args2 = 'Alle argumenter mÃ¥ fylles ut!',
         no_access = 'Du mangler tilgang til denne kommandoen',
         company_too_poor = 'Arbeidsgiveren din er blakk',
         item_not_exist = 'Gjenstand finnes ikke',
@@ -11,28 +11,26 @@ local Translations = {
         location_not_exist = 'Plassering finnes ikke',
         duplicate_license = 'Duplikat Rockstar-lisens funnet',
         no_valid_license  = 'Ingen gyldig Rockstar-lisens funnet',
-        not_whitelisted = 'Du har ikke tilgang til serveren',
-        server_already_open = 'Serveren er allerede åpen',
+        server_already_open = 'Serveren er allerede Ã¥pen',
         server_already_closed = 'Serveren er allerede stengt',
         no_permission = 'Du har ikke tillatelser til dette..',
-        no_waypoint = 'Ingen markør satt.',
+        no_waypoint = 'Ingen markÃ¸r satt.',
         tp_error = 'Feil under teleportering.',
     },
     success = {
-        server_opened = 'Serveren er åpnet',
+        server_opened = 'Serveren er Ã¥pnet',
         server_closed = 'Serveren er stengt',
-        teleported_waypoint = 'Teleporter til angitt markør.',
+        teleported_waypoint = 'Teleporter til angitt markÃ¸r.',
     },
     info = {
-        received_paycheck = 'Du har mottatt lønnsslippen din på kr %{value}',
+        received_paycheck = 'Du har mottatt lÃ¸nnsslippen din pÃ¥ kr %{value}',
         job_info = 'Jobb: %{value} | Grad: %{value2} | Vakt: %{value3}',
         gang_info = 'Gjeng: %{value} | Grad: %{value2}',
-        on_duty = 'Du er nå på vakt!',
-        off_duty = 'Du er nå av vakt!',
+        on_duty = 'Du er nÃ¥ pÃ¥ vakt!',
+        off_duty = 'Du er nÃ¥ av vakt!',
         checking_ban = 'Hei %s. Vi sjekker om du er utestengt.',
         join_server = 'Velkommen %s til {Server Name}.',
-        checking_whitelisted = 'Hei %s. Vi sjekker dine tilganger.',
-        exploit_banned = 'Du har blitt utestengt for juks. Sjekk vår Discord for mer informasjon: %{discord}',
+        exploit_banned = 'Du har blitt utestengt for juks. Sjekk vÃ¥r Discord for mer informasjon: %{discord}',
         exploit_dropped = 'Du har blitt sparket for utnyttelse',
     },
     command = {
@@ -44,57 +42,57 @@ local Translations = {
                 z = { name = 'z', help = 'Z posisjon'},
             },
         },
-        tpm = { help = 'TP Til Markør (kun admin)' },
-        togglepvp = { help = 'Skru på/av PVP på serveren (kun admin)' },
+        tpm = { help = 'TP Til MarkÃ¸r (kun admin)' },
+        togglepvp = { help = 'Skru pÃ¥/av PVP pÃ¥ serveren (kun admin)' },
         addpermission = {
             help = 'Gi spillertilganger (Kun gud)',
             params = {
-                id = { name = 'id', help = 'ID på spiller' },
-                permission = { name = 'permission', help = 'Tilgangsnivå '},
+                id = { name = 'id', help = 'ID pÃ¥ spiller' },
+                permission = { name = 'permission', help = 'TilgangsnivÃ¥ '},
             },
         },
         removepermission = {
             help = 'Fjern spillertilganger (kun gud)',
             params = {
-                id = { name = 'id', help = 'ID på spiller' },
-                permission = { name = 'permission', help = 'Tilgangsnivå' },
+                id = { name = 'id', help = 'ID pÃ¥ spiller' },
+                permission = { name = 'permission', help = 'TilgangsnivÃ¥' },
             },
         },
-        openserver = { help = 'Åpne opp serveren for alle (kun admin)' },
+        openserver = { help = 'Ã…pne opp serveren for alle (kun admin)' },
         closeserver = {
             help = 'Lukk serveren for personer uten tillatelser (kun admin)',
             params = {
-                reason = { name = 'reason', help = 'Årsak til stenging (valgfritt)' },
+                reason = { name = 'reason', help = 'Ã…rsak til stenging (valgfritt)' },
             },
         },
         car = {
-            help = 'Spawn kjøretøy (kun admin)',
+            help = 'Spawn kjÃ¸retÃ¸y (kun admin)',
             params = {
-                model = { name = 'model', help = 'Modellnavn på kjøretøyet' },
+                model = { name = 'model', help = 'Modellnavn pÃ¥ kjÃ¸retÃ¸yet' },
             },
         },
-        dv = { help = 'Slett kjøretøy (kun admin)' },
+        dv = { help = 'Slett kjÃ¸retÃ¸y (kun admin)' },
         givemoney = {
             help = 'Gi en spiller penger (kun admin)',
             params = {
-                id = { name = 'id', help = 'ID på spiller' },
+                id = { name = 'id', help = 'ID pÃ¥ spiller' },
                 moneytype = { name = 'moneytype', help = 'Type: (cash, bank, crypto)' },
-                amount = { name = 'amount', help = 'Pengebeløp' },
+                amount = { name = 'amount', help = 'PengebelÃ¸p' },
             },
         },
         setmoney = {
-            help = 'Angi spillerens pengebeløp (kun admin)',
+            help = 'Angi spillerens pengebelÃ¸p (kun admin)',
             params = {
-                id = { name = 'id', help = 'ID på spiller' },
+                id = { name = 'id', help = 'ID pÃ¥ spiller' },
                 moneytype = { name = 'moneytype', help = 'Type: (cash, bank, crypto)' },
-                amount = { name = 'amount', help = 'Pengebeløp' },
+                amount = { name = 'amount', help = 'PengebelÃ¸p' },
             },
         },
         job = { help = 'Sjekk din jobb' },
         setjob = {
             help = 'Sett en spillerjobb (kun admin)',
             params = {
-                id = { name = 'id', help = 'ID på spiller' },
+                id = { name = 'id', help = 'ID pÃ¥ spiller' },
                 job = { name = 'job', help = 'Jobb navn' },
                 grade = { name = 'grade', help = 'Jobb grad' },
             },
@@ -103,7 +101,7 @@ local Translations = {
         setgang = {
             help = 'Sett en spillergjeng (kun admin)',
             params = {
-                id = { name = 'id', help = 'ID på spiller' },
+                id = { name = 'id', help = 'ID pÃ¥ spiller' },
                 gang = { name = 'gang', help = 'Gjeng navn' },
                 grade = { name = 'grade', help = 'Gjeng grad' },
             },
@@ -112,7 +110,7 @@ local Translations = {
         me = {
             help = 'Vis lokal melding',
             params = {
-                message = { name = 'message', help = 'Melding å sende' }
+                message = { name = 'message', help = 'Melding Ã¥ sende' }
             },
         },
     },

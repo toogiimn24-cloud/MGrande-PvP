@@ -45,7 +45,7 @@ Config.Cityhalls = {
 Config.DrivingSchools = {
     { -- Driving School 1
         coords = vec3(240.3, -1379.89, 33.74),
-        showBlip = true,
+        showBlip = false,
         blipData = {
             sprite = 225,
             display = 4,

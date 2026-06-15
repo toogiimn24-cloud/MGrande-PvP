@@ -8,6 +8,8 @@ RegisterNetEvent('QBCore:Client:OnPlayerLoaded', function()
 end)
 
 CreateThread(function()
+    local MGrandeDisableScrapBlips = true
+    if MGrandeDisableScrapBlips then return end
     for id in pairs(Config.Locations) do
         local blip = AddBlipForCoord(Config.Locations[id]['main'].x, Config.Locations[id]['main'].y, Config.Locations[id]['main'].z)
         SetBlipSprite(blip, 380)

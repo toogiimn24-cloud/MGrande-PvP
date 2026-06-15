@@ -257,6 +257,7 @@ local hideFuelMenu = function()
 end
 
 local displayBlips = function()
+    if Config.Blip and Config.Blip.Show == false then return end
     for _, station in ipairs(Config.GasStations) do
         local blip = AddBlipForCoord(station.x, station.y, station.z)
         SetBlipSprite(blip, Config.Blip.Sprite)
